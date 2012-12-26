@@ -1,3 +1,3 @@
 autoparts
 =========
-this is the test
+this project uses JSF2.0 + Spring 3.2
