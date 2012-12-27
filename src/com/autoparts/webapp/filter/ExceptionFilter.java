@@ -28,7 +28,6 @@ public class ExceptionFilter implements Filter {
                          final ServletResponse response, final FilterChain chain)
             throws IOException, ServletException {
         try {
-            System.out.println("-------------ExceptionFilter ---------------");
             chain.doFilter(request, response);
         } catch (ServletException e) {
             System.out.println("-------------ExceptionFilter ServletException ---------------");
