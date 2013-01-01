@@ -1,0 +1,1 @@
+insert into ap_user(user_name,login_id,password,role,email,skype_num,trade_manager_num) values ('Limy Young','limy','798009',1,'yanglm@e-board.com.cn','123456789','cn1001093468');

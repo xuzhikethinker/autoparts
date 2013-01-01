@@ -30,7 +30,7 @@ public class ExceptionFilter implements Filter {
         try {
             chain.doFilter(request, response);
         } catch (ServletException e) {
-            System.out.println("-------------ExceptionFilter ServletException ---------------");
+            System.out.println("-------------E444xceptionFilter ServletException ---------------");
             e.printStackTrace();
 //			System.out.println("-------------ExceptionFilter Throwable ---------------");
 //			e.printStackTrace();

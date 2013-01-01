@@ -1,0 +1,249 @@
+<!-- This file is part of SocialPM: Agile Project Management Tools (SocialPM) 
+	Copyright (c)2010 Lincoln Baxter, III <lincoln@ocpsoft.com> (OcpSoft) If 
+	you are developing and distributing open source applications under the GPL 
+	Licence, then you are free to use SocialPM under the GPL License: SocialPM 
+	is free software: you can redistribute it and/or modify it under the terms 
+	of the GNU General Public License as published by the Free Software Foundation, 
+	either version 3 of the License, or (at your option) any later version. SocialPM 
+	is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; 
+	without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR 
+	PURPOSE. See the GNU General Public License for more details. You should 
+	have received a copy of the GNU General Public License along with SocialPM. 
+	If not, see <http://www.gnu.org/licenses/>. For OEMs, ISVs, and VARs who 
+	distribute SocialPM with their products, or host SocialPM online, OcpSoft 
+	provides flexible OEM commercial Licences: To purchase a License, contact 
+	OcpSoft (http://ocpsoft.com) -->
+<pretty-config xmlns="http://ocpsoft.com/prettyfaces/3.3.3"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://ocpsoft.com/prettyfaces/3.3.3
+http://ocpsoft.com/xml/ns/prettyfaces/ocpsoft-pretty-faces-3.3.3.xsd">
+	<rewrite match=".*/" trailingSlash="remove" />
+
+	<!-- ///////////////////////// guest navigation setting //////////////////////// -->
+	<!-- 网站首页 -->
+	<url-mapping id="index">
+		<pattern value="/"></pattern>
+		<view-id value="index.xhtml"></view-id>
+	</url-mapping>
+
+    <url-mapping id="user">
+        <pattern value="/user"></pattern>
+        <view-id value="/pages/user.xhtml"></view-id>
+    </url-mapping>
+
+    <url-mapping id="admin">
+        <pattern value="/maintain"></pattern>
+        <view-id value="/pages/admin/maintain.xhtml"></view-id>
+    </url-mapping>
+
+<!--	<url-mapping id="companyInfoV">
+		<pattern value="/v/compInfo/#{target:companyInfoView.target}/#{type:companyInfoView.type}"></pattern>
+		<action>#{companyInfoView.initPageData}</action>
+		<view-id value="/pages/compinfo/compInfo.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="companyInfoV2">
+		<pattern value="/v/bigEvent/#{target:companyInfoView.target}/#{type:companyInfoView.type}"></pattern>
+		<action>#{companyInfoView.initPageData}</action>
+		<view-id value="/pages/compinfo/bigEvent.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="companyNewsV">
+		<pattern value="/v/compNews/#{type:newsView.type}"></pattern>
+		<action>#{newsView.initPageData}</action>
+		<view-id value="/pages/news/news.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="companyNewsM">
+		<pattern value="/m/compNews/#{type:newsView.type}"></pattern>
+		<action>#{newsView.initPageData}</action>
+		<view-id value="/pages/management/newsEvent.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="companyNewsN">
+		<pattern value="/m/compNews"></pattern>
+		<view-id value="/pages/management/newsEvent.xhtml"></view-id>
+	</url-mapping>	
+	
+	<url-mapping id="companyInfoM">
+	    <pattern value="/m/compInfo/#{target:companyInfoView.target}/#{type:companyInfoView.type}"></pattern>
+		<action>#{companyInfoView.initPageData}</action>
+		<view-id value="/pages/management/compInfo.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="companyInfoM">
+	    <pattern value="/m/compInfo"></pattern>
+		<view-id value="/pages/management/compInfo.xhtml"></view-id>
+	</url-mapping>	
+	
+	<url-mapping id="bigEvent">
+		<pattern value="/m/bigEvent/#{target:companyInfoView.target}/#{type:companyInfoView.type}"></pattern>
+		<action>#{companyInfoView.initPageData}</action>
+		<view-id value="/pages/management/bigEvent.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="bigEventm">
+		<pattern value="/m/bigEvent"></pattern>
+		<view-id value="/pages/management/bigEvent.xhtml"></view-id>
+	</url-mapping>		
+
+	<url-mapping id="tradeInfoV">
+		<pattern value="/v/tradeInfo/#{target:tradeInfoView.target}/#{type:tradeInfoView.type}"></pattern>
+		<action>#{tradeInfoView.initPageData}</action>
+		<view-id value="/pages/tradeinfo/tradeInfo.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="tradeInfoM">
+		<pattern value="/m/tradeInfo/#{target:tradeInfoView.target}/#{type:tradeInfoView.type}"></pattern>
+		<action>#{tradeInfoView.initPageData}</action>
+		<view-id value="/pages/management/tradeInfo.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="lawInfoCasetm">
+		<pattern value="/m/lawInfoCase"></pattern>
+		<view-id value="/pages/management/tradeInfo.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="jobInfoV">
+		<pattern value="/v/recruitment/#{target:recruitmentView.target}/#{type:recruitmentView.type}"></pattern>
+		<action>#{recruitmentView.initPageData}</action>
+		<view-id value="/pages/recruitment/recruitment.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="jobInfoM">
+		<pattern value="/m/recruitment/#{target:recruitmentView.target}/#{type:recruitmentView.type}"></pattern>
+		<action>#{recruitmentView.initPageData}</action>
+		<view-id value="/pages/management/recruitment.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="positionM">
+		<pattern value="/m/recruitment"></pattern>
+		<view-id value="/pages/management/recruitment.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="recruitmentM">
+		<pattern value="/m/jobManager/#{target:recruitmentView.target}/#{type:recruitmentView.type}"></pattern>
+		<action>#{recruitmentView.initPageData}</action>
+		<view-id value="/pages/management/jobManager.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="rightsSettingM">
+		<pattern value="/m/rightManager/#{target:rightsSettingView.target}/#{type:rightsSettingView.type}"></pattern>
+		<action>#{rightsSettingView.initPageData}</action>
+		<view-id value="/pages/management/rightsSetting.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="rightsSettingU">
+		<pattern value="/m/rightManager"></pattern>
+		<view-id value="/pages/management/rightsSetting.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="userInfoM">
+		<pattern value="/m/userInfo"></pattern>
+		<action>#{userView.initPageData}</action>
+		<view-id value="/pages/management/user.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="areaInfoM">
+		<pattern value="/m/areaInfo/#{target:areaInfoView.target}"></pattern>
+		<action>#{areaInfoView.initPageData}</action>
+		<view-id value="/pages/management/areaInfo.xhtml"></view-id>
+	</url-mapping>	-->
+			
+	<!-- ///////////////////////// admin navigation setting ///////////////////////// 
+	<url-mapping id="schoolDetail">
+		<pattern value="/schoolDetail"></pattern>
+		<query-param name="activeIndex"> #{schoolView.activeIndex} </query-param>
+		<action>#{schoolView.loadSchoolInfo}</action>
+		<view-id value="/pages/school/school.xhtml"></view-id>
+	</url-mapping>
+
+	<url-mapping id="school">
+		<pattern value="/school"></pattern>
+		<query-param name="activeIndex"> #{schoolView.activeIndex} </query-param>
+		<view-id value="/pages/school/school.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="basicData">
+		<pattern value="/basicData"></pattern>
+		<action>#{schoolView.loadSupportingData}</action>
+		<query-param name="activeIndex"> #{schoolView.activeIndex} </query-param>
+		<view-id value="/pages/school/basic_data_center.xhtml"></view-id>
+	</url-mapping>	
+	
+	<url-mapping id="yearTerm">
+		<pattern value="/yearTerm"></pattern>
+		<action>#{schoolView.loadSchoolYearAndTerm}</action>
+		<query-param name="activeIndex"> #{schoolView.activeIndex} </query-param>
+		<view-id value="/pages/school/year_term.xhtml"></view-id>
+	</url-mapping>	
+	
+	<url-mapping id="master">
+		<pattern value="/master"></pattern>
+		<query-param name="guest"> #{masterView.guest} </query-param>
+		<query-param name="activeIndex"> #{masterView.activeIndex} </query-param>
+		<action>#{masterView.loadMasterList}</action>
+		<view-id value="/pages/master/master.xhtml"></view-id>
+	</url-mapping>	
+	
+	<url-mapping id="masterList">
+		<pattern value="/masterList"></pattern>
+		<view-id value="/pages/master/master_list.xhtml"></view-id>
+	</url-mapping>	
+
+	<url-mapping id="teacherList">
+		<pattern value="/teacherList"></pattern>
+		<action>#{teacherView.initPageLoadingData}</action>
+		<query-param name="activeIndex"> #{teacherView.activeIndex} </query-param>
+		<view-id value="/pages/staff/teacher_profile.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="staffList">
+		<pattern value="/staffList"></pattern>
+		<action>#{teacherView.initPageLoadingData}</action>
+		<query-param name="activeIndex"> #{teacherView.activeIndex} </query-param>
+		<view-id value="/pages/staff/staff_list.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="staffCreation">
+		<pattern value="/staffCreation"></pattern>
+		<action>#{teacherView.initPageLoadingData}</action>
+		<query-param name="activeIndex"> #{teacherView.activeIndex} </query-param>
+		<view-id value="/pages/staff/staff_creation.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="staffProfile">
+		<pattern value="/staffProfile"></pattern>
+		<action>#{teacherView.initPageLoadingData}</action>
+		<query-param name="activeIndex"> #{teacherView.activeIndex} </query-param>
+		<view-id value="/pages/staff/staff_profile.xhtml"></view-id>
+	</url-mapping>
+	-->
+	<!-- <url-mapping id="project-view"> <pattern value="/p/#{projects.current.name}"></pattern> 
+		<view-id value="/pages/project/view.xhtml"></view-id> <action>#{projects.loadCurrent}</action> 
+		</url-mapping> <url-mapping id="project-create"> <pattern value="/new-project"></pattern> 
+		<view-id value="/pages/project/create.xhtml"></view-id> </url-mapping> -->
+<!-- 
+	<url-mapping id="test">
+		<pattern value="/test"></pattern>
+		<view-id value="/pages/test/test.xhtml"></view-id>
+	</url-mapping>
+	
+	<url-mapping id="pprBean">
+		<pattern value="/pprBean"></pattern>
+		<view-id value="/pages/test/pprBean.xhtml"></view-id>
+	</url-mapping>	
+	 -->
+	 
+	<!-- Begin Exception Mappings -->
+	<url-mapping id="404">
+		<pattern value="/404" />
+		<view-id value="/pages/404.xhtml" />
+	</url-mapping>
+	<url-mapping id="error">
+		<pattern value="/error" />
+		<view-id value="/pages/error.xhtml" />
+	</url-mapping>
+	<!-- End Exception Mappings -->
+
+</pretty-config>
