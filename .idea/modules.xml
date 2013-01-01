@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AutoParts.iml" filepath="$PROJECT_DIR$/AutoParts.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../DiChan/huashibrother.iml" filepath="$PROJECT_DIR$/../DiChan/huashibrother.iml" />
+      <module fileurl="file://E:/OpenSouces/JSF/primefacesExamples/showcase/prime-showcase.iml" filepath="E:/OpenSouces/JSF/primefacesExamples/showcase/prime-showcase.iml" />
     </modules>
   </component>
 </project>
