@@ -7,6 +7,7 @@
             <p:graphicImage value="/resources/images/products/#{image}" alt="Image Description for #{image}" title="#{image}"/>
         </p:galleria>
          <br/>
+        companyName=#{homeView.company.name}
         <p:carousel id="basicCarousel" rows="4" value="#{homeView.productImages}" var="car" itemStyle="height:120px; width:160px;text-align:center">
                 <p:graphicImage value="/resources/images/products/#{car}"/>
         </p:carousel>

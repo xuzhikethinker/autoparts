@@ -1,5 +1,7 @@
 package com.autoparts.webapp.view;
 
+import com.autoparts.domain.Company;
+
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
 import javax.faces.bean.SessionScoped;
@@ -14,11 +16,12 @@ import java.util.List;
  */
 @ManagedBean(name="homeView")
 @SessionScoped
-public class HomeView {
+public class HomeView extends BaseView {
     private List<String> productImages;
-
+    private Company company;
     @PostConstruct
     public void init() {
+        company = autopartsService.getCompany();
         productImages = new ArrayList<String>();
         for (int i = 1; i <= 12; i++) {
             productImages.add("galleria" + i + ".jpg");
@@ -31,5 +34,13 @@ public class HomeView {
 
     public void setProductImages(List<String> productImages) {
         this.productImages = productImages;
+    }
+
+    public Company getCompany() {
+        return company;
+    }
+
+    public void setCompany(Company company) {
+        this.company = company;
     }
 }

@@ -2,6 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <option name="DEFAULT_COMPILER" value="Javac" />
+    <excludeFromCompile>
+      <file url="file://$PROJECT_DIR$/../DiChan/src/applicationContext_service.xml" />
+      <file url="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/webapp/WEB-INF/web.xml" />
+      <file url="file://$PROJECT_DIR$/../DiChan/WebContent/WEB-INF/web.xml" />
+      <file url="file://$PROJECT_DIR$/../DiChan/WebContent/WEB-INF/faces-config.xml" />
+    </excludeFromCompile>
     <resourceExtensions />
     <wildcardResourcePatterns>
       <entry name="!?*.java" />

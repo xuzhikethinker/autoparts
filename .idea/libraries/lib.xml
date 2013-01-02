@@ -6,6 +6,7 @@
     <JAVADOC />
     <SOURCES>
       <root url="jar://F:/程序设计相关文档/spring/Spring Framework/spring-framework-3.2.0.RELEASE/libs/spring-jdbc-3.2.0.RELEASE-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/" />
     </SOURCES>
     <jarDirectory url="file://$PROJECT_DIR$/WebContent/WEB-INF/lib" recursive="false" />
   </library>

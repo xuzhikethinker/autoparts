@@ -3,10 +3,14 @@ package com.autoparts.service;
 import com.autoparts.domain.*;
 import com.autoparts.repository.AutopartsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
+import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
-
+@Service("autopartsService")
 public class AutopartsServiceImpl implements AutopartsService {
     @Autowired
     AutopartsRepository autopartsRepository;
@@ -19,6 +23,11 @@ public class AutopartsServiceImpl implements AutopartsService {
     @Override
     public User getAdmin(User user) {
         return autopartsRepository.getAdmin(user);
+    }
+
+    @Override
+    public User getCompanyContact() {
+        return autopartsRepository.getCompanyContact();
     }
 
     @Override
@@ -48,7 +57,25 @@ public class AutopartsServiceImpl implements AutopartsService {
 
     @Override
     public List<ProductCatalog> getProductCataLogList() {
-        return autopartsRepository.getProductCataLogList();
+        List<ProductCatalog> cataLogList = autopartsRepository.getProductCataLogList();
+        Map<String, ProductCatalog> cataLogMap = new HashMap<String, ProductCatalog>();
+        for(ProductCatalog item:cataLogList){
+            if(item.getParentCatalogCode()==null && !cataLogMap.containsKey(item.getCatalogCode())){
+                cataLogMap.put(item.getCatalogCode(),item);
+            }
+        }
+
+        for(ProductCatalog item:cataLogList){
+            if(item.getParentCatalogCode()!=null){
+                ProductCatalog parent = cataLogMap.get(item.getParentCatalogCode());
+                parent.getChildrenProductCatalogList().add(item);
+            }
+        }
+        List<ProductCatalog> result = new ArrayList<ProductCatalog>();
+        for(ProductCatalog value: cataLogMap.values()) {
+            result.add(value);
+        }
+        return result;
     }
 
     @Override

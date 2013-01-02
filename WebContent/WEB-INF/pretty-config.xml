@@ -26,14 +26,14 @@ http://ocpsoft.com/xml/ns/prettyfaces/ocpsoft-pretty-faces-3.3.3.xsd">
 		<view-id value="index.xhtml"></view-id>
 	</url-mapping>
 
-    <url-mapping id="user">
-        <pattern value="/user"></pattern>
-        <view-id value="/pages/user.xhtml"></view-id>
+    <url-mapping id="product">
+        <pattern value="/product"></pattern>
+        <view-id value="/pages/product.xhtml"></view-id>
     </url-mapping>
 
-    <url-mapping id="admin">
-        <pattern value="/maintain"></pattern>
-        <view-id value="/pages/admin/maintain.xhtml"></view-id>
+    <url-mapping id="company">
+        <pattern value="/company"></pattern>
+        <view-id value="/pages/company.xhtml"></view-id>
     </url-mapping>
 
 <!--	<url-mapping id="companyInfoV">

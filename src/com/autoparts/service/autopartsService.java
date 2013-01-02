@@ -13,6 +13,7 @@ import java.util.List;
 public interface AutopartsService {
     void updateUser(User user);
     User getAdmin(User user);
+    User getCompanyContact();
 
     void updateCompany(Company company);
     Company getCompany();

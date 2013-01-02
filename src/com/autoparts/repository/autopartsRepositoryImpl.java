@@ -9,6 +9,7 @@ import org.springframework.jdbc.core.simple.SimpleJdbcInsert;
 import org.springframework.jdbc.core.support.JdbcDaoSupport;
 import org.springframework.stereotype.Repository;
 
+import javax.annotation.PostConstruct;
 import javax.sql.DataSource;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -18,7 +19,13 @@ import java.util.List;
 
 @Repository("autopartsRepository")
 public class AutopartsRepositoryImpl extends JdbcDaoSupport implements AutopartsRepository {
+    @Autowired
+    DataSource dataSource;
 
+    @PostConstruct
+    public void setJdbcTemplateDataSource(){
+        this.setDataSource(dataSource);
+    }
     @Override
     public void updateUser(final User user) {
         //"update ap_user set user_name=?,password=?,role=?,email=?,contact_phone=?,msn_num=?,skype_num=?,trade_manager_num=?,fax_num=? where id=? ";
@@ -42,6 +49,28 @@ public class AutopartsRepositoryImpl extends JdbcDaoSupport implements Autoparts
     @Override
     public User getAdmin(User user) {
         User userFromDB = this.getJdbcTemplate().queryForObject(AutopartsSQLConstant.SELECT_USER_BY_LOGIN_CODE, new Object[]{user.getLoginID(), user.getPassword(), 1}, new RowMapper<User>() {
+            public User mapRow(ResultSet rs, int index) throws SQLException {
+                User result = new User();
+                result.setId(rs.getLong(PersistenceEntity.ID));
+                result.setContactPhone(rs.getString(User.CONTACT_PHONE));
+                result.setEmail(rs.getString(User.EMAIL));
+                result.setFaxNumber(rs.getString(User.FAX_NUM));
+                result.setLoginID(rs.getString(User.LOGIN_ID));
+                result.setMsnNumber(rs.getString(User.MSN_NUM));
+                result.setName(rs.getString(User.NAME));
+                result.setPassword(rs.getString(User.PASSWORD));
+                result.setRole(rs.getInt(User.ROLE));
+                result.setSkypeNumber(rs.getString(User.SKYPE_NUM));
+                result.setTradeManagerNumber(rs.getString(User.TRADE_MANAGER_NUM));
+                return result;
+            }
+        }
+        );
+        return userFromDB;
+    }
+
+    public User getCompanyContact(){
+        User userFromDB = this.getJdbcTemplate().queryForObject(AutopartsSQLConstant.SELECT_COMP_CONTACT,  new RowMapper<User>() {
             public User mapRow(ResultSet rs, int index) throws SQLException {
                 User result = new User();
                 result.setId(rs.getLong(PersistenceEntity.ID));

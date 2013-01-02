@@ -11,6 +11,7 @@ public interface AutopartsSQLConstant {
     public static final String SELECT_PRODUCT_CATALOG_LIST = "select * from ap_product_catalog";
     public static final String SELECT_ORDER_LIST = "select * from ap_order";
     public static final String SELECT_USER_BY_LOGIN_CODE = "select * from ap_user where login_id=? and password=? and role=?";
+    public static final String SELECT_COMP_CONTACT = "select * from ap_user where comp_contact=1";
 
     public static final String UPDATE_USER = "update ap_user set user_name=?,password=?,role=?,email=?,contact_phone=?,msn_num=?,skype_num=?,trade_manager_num=?,fax_num=? where id=? ";
     public static final String UPDATE_COMPANY = "update ap_company set comp_name=?,comp_address=?,comp_principal=?,comp_introduction=?,email_addr=?,contact_name=?,phone_num=?,fax_num=? where id=? ";
