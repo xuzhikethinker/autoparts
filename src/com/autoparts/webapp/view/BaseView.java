@@ -3,6 +3,8 @@ package com.autoparts.webapp.view;
 import com.autoparts.service.AutopartsService;
 
 import javax.faces.bean.ManagedProperty;
+import javax.faces.context.FacesContext;
+import javax.servlet.ServletContext;
 
 /**
  * User: Administrator
@@ -20,5 +22,9 @@ public class BaseView {
 
     public void setAutopartsService(AutopartsService autopartsService) {
         this.autopartsService = autopartsService;
+    }
+
+    public ServletContext getServletContext(){
+        return (ServletContext) FacesContext.getCurrentInstance().getExternalContext().getContext();
     }
 }

@@ -2,28 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" readonly="true" id="dc407cd7-b1f2-4461-b10b-3a9844d907f8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/CompanyView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" />
-      <change type="DELETED" beforePath="E:\Workspace\autoparts\WebContent\pages\content" afterPath="" />
-      <change type="DELETED" beforePath="E:\Workspace\autoparts\database\autoparts.sql" afterPath="" />
-      <change type="DELETED" beforePath="E:\Workspace\autoparts\database\autoparts_data.sql" afterPath="" />
-      <change type="DELETED" beforePath="E:\Workspace\autoparts\database\overview.doc" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/product/guide.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/resources/product/neview.pdf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/filter/CharacterEncodingFilter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/autoparts/webapp/view/CompanyView.java" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/CompanyView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/autoparts/webapp/view/HomeView.java" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/HomeView.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/applicationContext.xml" afterPath="$PROJECT_DIR$/src/applicationContext.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/faces-config.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/faces-config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/index.xhtml" afterPath="$PROJECT_DIR$/WebContent/index.xhtml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/pretty-config.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/pretty-config.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" afterPath="$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/pages/product.xhtml" afterPath="$PROJECT_DIR$/WebContent/pages/product.xhtml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="E:\Workspace\autoparts\src\com\autoparts\repository\autopartsRepository.java" afterPath="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepository.java" />
-      <change type="MOVED" beforePath="E:\Workspace\autoparts\src\com\autoparts\repository\autopartsRepositoryImpl.java" afterPath="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepositoryImpl.java" />
-      <change type="MOVED" beforePath="E:\Workspace\autoparts\src\com\autoparts\repository\autopartsSQLConstant.java" afterPath="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsSQLConstant.java" />
-      <change type="MOVED" beforePath="E:\Workspace\autoparts\src\com\autoparts\service\autopartsService.java" afterPath="$PROJECT_DIR$/src/com/autoparts/service/AutopartsService.java" />
-      <change type="MOVED" beforePath="E:\Workspace\autoparts\src\com\autoparts\service\autopartsServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/autoparts/service/AutopartsServiceImpl.java" />
     </list>
     <list id="75203528-726d-4d82-b1d9-fcc11f4f3bdb" name="" comment="">
       <change type="MODIFICATION" beforePath="E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/java/org/primefaces/examples/view/CarDataModel.java" afterPath="E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/java/org/primefaces/examples/view/CarDataModel.java" />
@@ -37,9 +27,9 @@
     <file path="/a.css" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1355928996458" ignored="false" />
     <file path="/a.groovy" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1355928999296" ignored="false" />
     <file path="/ResponseTimeLoggingFilter.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1356446225271" ignored="false" />
-    <file path="/Dummy.txt" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357128245381" ignored="false" />
+    <file path="/Dummy.txt" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357208779158" ignored="false" />
     <file path="/README.md" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1356621534135" ignored="false" />
-    <file path="/fragment.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357053038063" ignored="false" />
+    <file path="/fragment.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357224053690" ignored="false" />
     <file path="/Company.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357048695866" ignored="false" />
     <file path="/Contact.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357048817008" ignored="false" />
     <file path="/Unnamed.txt.ft" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1356770676503" ignored="false" />
@@ -57,9 +47,9 @@
     <file path="/pretty-config.xml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357138977652" ignored="false" />
     <file path="/content" changelist="75203528-726d-4d82-b1d9-fcc11f4f3bdb" time="1357041457459" ignored="false" />
     <file path="/bootstrap.css" changelist="75203528-726d-4d82-b1d9-fcc11f4f3bdb" time="1356961221500" ignored="false" />
-    <file path="/template.xhtml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357138653486" ignored="false" />
+    <file path="/template.xhtml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357214911197" ignored="false" />
     <file path="/HomeView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357133408602" ignored="false" />
-    <file path="/a.dummy" changelist="75203528-726d-4d82-b1d9-fcc11f4f3bdb" time="1357011234878" ignored="false" />
+    <file path="/a.dummy" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357222761018" ignored="false" />
     <file path="/Order.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357051993616" ignored="false" />
     <file path="/jdbc.properties" changelist="75203528-726d-4d82-b1d9-fcc11f4f3bdb" time="1357043176620" ignored="false" />
     <file path="$PROJECT_DIR$/src/com/autoparts/service/autopartsService.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357043367683" ignored="true" />
@@ -74,13 +64,13 @@
     <file path="/AutopartsServiceImpl.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357138850827" ignored="false" />
     <file path="/autoparts_data.sql" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357140277266" ignored="false" />
     <file path="/autoparts.sql" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357135304952" ignored="false" />
-    <file path="/BaseView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357133379235" ignored="false" />
+    <file path="/BaseView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357224845493" ignored="false" />
     <file path="/faces-config.xml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357134189487" ignored="false" />
-    <file path="/ProductView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357139723928" ignored="false" />
+    <file path="/ProductView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357226923994" ignored="false" />
     <file path="/CompanyView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357135529557" ignored="false" />
     <file path="/AutopartsService.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357135124501" ignored="false" />
     <file path="/FeedbackView.java" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357137122918" ignored="false" />
-    <file path="/product.xhtml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357138347431" ignored="false" />
+    <file path="/product.xhtml" changelist="dc407cd7-b1f2-4461-b10b-3a9844d907f8" time="1357226249461" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -115,6 +105,7 @@
     <sortChildren value="false" />
   </component>
   <component name="DebuggerManager">
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
       <breakpoint>
         <option name="NOTIFY_CAUGHT" value="true" />
@@ -149,9 +140,36 @@
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
     </breakpoint_any>
-    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints>
-      <breakpoint url="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" line="28" class="com.autoparts.webapp.view.ProductView" package="com.autoparts.webapp.view">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" line="55" class="com.autoparts.webapp.view.ProductView" package="com.autoparts.webapp.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" line="49" class="com.autoparts.webapp.view.ProductView" package="com.autoparts.webapp.view">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" line="61" class="com.autoparts.webapp.view.ProductView" package="com.autoparts.webapp.view">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -175,22 +193,78 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProductView.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="ProductView.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="0" selection-start="812" selection-end="862" vertical-scroll-proportion="0.36639118">
+            <state line="67" column="36" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#610#626#0" expanded="true" />
+                <element signature="e#866#882#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DefaultTreeNode.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/org/primefaces/model/DefaultTreeNode.java">
+      <file leaf-file-name="BaseView.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="55" selection-start="1214" selection-end="1220" vertical-scroll-proportion="0.0">
+            <state line="26" column="43" selection-start="729" selection-end="746" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UploadedFile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/org/primefaces/model/UploadedFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="22" selection-start="762" selection-end="773" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/webapp/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="55" column="46" selection-start="1851" selection-end="1857" vertical-scroll-proportion="-15.45098">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterEncodingFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/java/org/primefaces/examples/filter/CharacterEncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="44" column="13" selection-start="880" selection-end="1282" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CharacterEncodingFilter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/filter/CharacterEncodingFilter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/pages/user.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="50" selection-start="604" selection-end="604" vertical-scroll-proportion="-6.0">
               <folding />
             </state>
           </provider>
@@ -199,75 +273,37 @@
       <file leaf-file-name="product.xhtml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/pages/product.xhtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="-0.6785714">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoparts.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/autoparts.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="40" selection-start="1003" selection-end="1046" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoparts_data.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/design/autoparts_data.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="77" selection-start="481" selection-end="490" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pretty-config.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/pretty-config.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="38" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="template.xhtml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="115" column="84" selection-start="3135" selection-end="3225" vertical-scroll-proportion="-8.821428">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutopartsRepositoryImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepositoryImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="113" column="93" selection-start="5449" selection-end="5463" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutopartsSQLConstant.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/autoparts/repository/AutopartsSQLConstant.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="31" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AutopartsServiceImpl.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/autoparts/service/AutopartsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="77" column="21" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0">
+            <state line="40" column="8" selection-start="1694" selection-end="1898" vertical-scroll-proportion="-5.571429">
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1648#1672#0" expanded="true" />
-                <element signature="e#2231#2247#0" expanded="true" />
+                <marker date="1357227177237" expanded="true" signature="1141:1152" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="148" column="21" selection-start="5499" selection-end="5499" vertical-scroll-proportion="-2.5801282">
+              <folding />
+            </state>
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+            <state />
+          </provider>
+          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="company.xhtml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/pages/company.xhtml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="59" selection-start="207" selection-end="250" vertical-scroll-proportion="-1.3571428">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -295,22 +331,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java" />
-        <option value="$PROJECT_DIR$/src/com/autoparts/service/AutopartsService.java" />
-        <option value="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepository.java" />
-        <option value="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsSQLConstant.java" />
         <option value="$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepositoryImpl.java" />
-        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/CompanyView.java" />
         <option value="$PROJECT_DIR$/WebContent/pages/company" />
         <option value="$PROJECT_DIR$/WebContent/pages/product" />
-        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml" />
         <option value="$PROJECT_DIR$/src/com/autoparts/service/AutopartsServiceImpl.java" />
         <option value="$PROJECT_DIR$/design/autoparts.sql" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/pretty-config.xml" />
+        <option value="$PROJECT_DIR$/design/autoparts_data.sql" />
+        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/CompanyView.java" />
+        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java" />
+        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/HomeView.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml" />
+        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java" />
         <option value="$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java" />
         <option value="$PROJECT_DIR$/WebContent/pages/product.xhtml" />
-        <option value="$PROJECT_DIR$/design/autoparts_data.sql" />
+        <option value="$PROJECT_DIR$/src/com/autoparts/webapp/filter/CharacterEncodingFilter.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -638,12 +674,112 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="AutoParts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="showcase" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="examples" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -924,6 +1060,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="pages" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -965,6 +1119,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AutoParts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="autoparts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="filter" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1090,12 +1270,10 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
     <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1105,23 +1283,24 @@
     <property name="options.lastSelected" value="File.Encoding" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Workspace\autoparts\WebContent\resources\product" />
       <recent name="E:\Workspace\autoparts\WebContent\resources\images\products" />
       <recent name="E:\Workspace\autoparts\WebContent\resources\images" />
       <recent name="E:\Workspace\autoparts\WebContent\WEB-INF" />
       <recent name="E:\Workspace\autoparts\WebContent\resources\bootstrap\css" />
-      <recent name="E:\Workspace\autoparts\WebContent\resources" />
     </key>
     <key name="ExtractSuperBase.RECENT_KEYS">
       <recent name="com.autoparts.service" />
@@ -1141,6 +1320,19 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -1169,19 +1361,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -1225,12 +1404,6 @@
       </option>
       <envs />
       <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
-      <option name="VM_PARAMETERS" value="" />
-      <option name="USER_CFG_CLASS" />
-      <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
     <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local">
@@ -1294,6 +1467,12 @@
       </ConfigurationWrapper>
       <method />
     </configuration>
+    <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
     <configuration default="false" name="autoParts" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0">
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
@@ -1310,12 +1489,12 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="1839" />
+        <option name="DEBUG_PORT" value="14124" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="14124" />
+        <option name="DEBUG_PORT" value="9868" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -1568,37 +1747,37 @@
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.47082657" order="21" side_tool="false" content_ui="tabs" />
-      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4715447" sideWeight="0.49027553" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.493517" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20162602" sideWeight="0.48055106" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20860389" sideWeight="0.7974068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20860389" sideWeight="0.7974068" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28455284" sideWeight="0.37905845" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297162" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49027553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="17" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49027553" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="ContextViewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300813" sideWeight="0.41572124" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19967532" sideWeight="0.53333336" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46666667" sideWeight="0.61525977" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SQL" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4715447" sideWeight="0.49027553" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.493517" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3691057" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="17" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20907618" sideWeight="0.6265625" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20583469" sideWeight="0.31707317" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.6699187" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3300813" sideWeight="0.41572124" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26217532" sideWeight="0.6699187" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33333334" sideWeight="0.61525977" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.493517" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="DBHelper" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Tasks" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.493517" order="16" side_tool="false" content_ui="tabs" />
       <window_info id="SQL Schema" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.4935065" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3284553" sideWeight="0.49675852" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="UML Diagrams" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="18" side_tool="false" content_ui="tabs" />
       <window_info id="Debug with VisualVM" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="19" side_tool="false" content_ui="tabs" />
@@ -1669,127 +1848,145 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/FeedbackView.java">
+    <entry file="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/java/org/primefaces/examples/view/CreateBookBean.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="45" selection-start="335" selection-end="335" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/autoparts/domain/ProductCatalog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="32" selection-start="1501" selection-end="1501" vertical-scroll-proportion="0.0">
+        <state line="27" column="13" selection-start="941" selection-end="941" vertical-scroll-proportion="0.2631579">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://D:/Java/jdk1.7.0_07/src.zip!/java/util/Map.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/admin/maintain.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="83" selection-start="15319" selection-end="15319" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DiChan/WebContent/WEB-INF/view/template/basic_template.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="58" selection-start="534" selection-end="534" vertical-scroll-proportion="-1.4834834">
-          <folding>
-            <marker date="1335013746220" expanded="true" signature="-1:-1" placeholder="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../DiChan/WebContent/WEB-INF/view/template/default/header.xhtml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="48" selection-start="556" selection-end="592" vertical-scroll-proportion="-4.75">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/template/template.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="115" column="84" selection-start="3135" selection-end="3225" vertical-scroll-proportion="-8.821428">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/autoparts/repository/AutopartsRepositoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="93" selection-start="5449" selection-end="5463" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/autoparts/repository/AutopartsSQLConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="31" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/autoparts/service/AutopartsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="21" selection-start="2370" selection-end="2370" vertical-scroll-proportion="0.0">
+        <state line="8" column="86" selection-start="388" selection-end="388" vertical-scroll-proportion="86.17857">
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1648#1672#0" expanded="true" />
-            <element signature="e#2231#2247#0" expanded="true" />
+            <marker date="1357214913585" expanded="true" signature="-1:-1" placeholder="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/pretty-config.xml">
+    <entry file="file://$PROJECT_DIR$/WebContent/index.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="38" selection-start="1751" selection-end="1751" vertical-scroll-proportion="0.0">
+        <state line="9" column="88" selection-start="708" selection-end="708" vertical-scroll-proportion="-6.107143">
+          <folding>
+            <marker date="1357133535520" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/company.xhtml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="59" selection-start="207" selection-end="250" vertical-scroll-proportion="-1.3571428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/primefaces-3.4.2.jar!/org/primefaces/model/DefaultTreeNode.class">
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/user.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="11" selection-start="657" selection-end="657" vertical-scroll-proportion="0.35714287">
+        <state line="14" column="50" selection-start="604" selection-end="604" vertical-scroll-proportion="-6.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/org/primefaces/model/DefaultTreeNode.java">
+    <entry file="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/org/primefaces/model/UploadedFile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="55" selection-start="1214" selection-end="1220" vertical-scroll-proportion="0.0">
+        <state line="24" column="22" selection-start="762" selection-end="773" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/BaseView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="43" selection-start="729" selection-end="746" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../ThirdPartyLib/jsf/primefaces-3.4.2-sources.jar!/org/primefaces/webapp/filter/FileUploadFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="73" selection-start="1458" selection-end="1473" vertical-scroll-proportion="-0.88530463">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../Server/tomcat-7.0.34/lib/catalina.jar!/org/apache/catalina/core/ApplicationFilterChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="17" selection-start="1300" selection-end="1300" vertical-scroll-proportion="0.36614174">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/pages/product.xhtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="8" selection-start="378" selection-end="378" vertical-scroll-proportion="-0.6785714">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/autoparts.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="40" selection-start="1003" selection-end="1046" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/design/autoparts_data.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="77" selection-start="481" selection-end="490" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="40" column="8" selection-start="1694" selection-end="1898" vertical-scroll-proportion="-5.571429">
+          <folding>
+            <marker date="1357227177237" expanded="true" signature="1141:1152" placeholder="{...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/view/ProductView.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="812" selection-end="862" vertical-scroll-proportion="0.36639118">
+        <state line="67" column="36" selection-start="2491" selection-end="2491" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#610#626#0" expanded="true" />
+            <element signature="e#866#882#0" expanded="true" />
           </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/java/org/primefaces/examples/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="44" column="13" selection-start="880" selection-end="1282" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/autoparts/webapp/filter/CharacterEncodingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="653" selection-end="653" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/OpenSouces/JSF/primefacesExamples/showcase/src/main/webapp/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="55" column="46" selection-start="1851" selection-end="1857" vertical-scroll-proportion="-15.45098">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="148" column="21" selection-start="5499" selection-end="5499" vertical-scroll-proportion="-2.5801282">
+          <folding />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
+        <state />
+      </provider>
+      <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
+        <state />
       </provider>
     </entry>
   </component>

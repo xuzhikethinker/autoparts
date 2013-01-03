@@ -5,6 +5,7 @@ import com.autoparts.domain.User;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 
 /**
@@ -14,7 +15,7 @@ import javax.faces.bean.SessionScoped;
  * To change this template use File | Settings | File Templates.
  */
 @ManagedBean(name="companyView")
-@SessionScoped
+@RequestScoped
 public class CompanyView extends BaseView {
     Company company = new Company();
     User companyContact = new User();

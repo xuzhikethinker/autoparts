@@ -1,6 +1,7 @@
 package com.autoparts.webapp.view;
 
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 
 /**
@@ -10,6 +11,6 @@ import javax.faces.bean.SessionScoped;
  * To change this template use File | Settings | File Templates.
  */
 @ManagedBean(name="feedbackView")
-@SessionScoped
+@RequestScoped
 public class FeedbackView extends BaseView {
 }

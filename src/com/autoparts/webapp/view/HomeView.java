@@ -4,6 +4,7 @@ import com.autoparts.domain.Company;
 
 import javax.annotation.PostConstruct;
 import javax.faces.bean.ManagedBean;
+import javax.faces.bean.RequestScoped;
 import javax.faces.bean.SessionScoped;
 import java.util.ArrayList;
 import java.util.List;
@@ -15,7 +16,7 @@ import java.util.List;
  * To change this template use File | Settings | File Templates.
  */
 @ManagedBean(name="homeView")
-@SessionScoped
+@RequestScoped
 public class HomeView extends BaseView {
     private List<String> productImages;
     private Company company;
