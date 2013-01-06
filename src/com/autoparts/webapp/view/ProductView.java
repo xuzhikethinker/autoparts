@@ -47,20 +47,26 @@ public class ProductView extends BaseView {
     }
 
     public void fileUpload(FileUploadEvent event) {
-        if (!PhaseId.INVOKE_APPLICATION.equals(event.getPhaseId())) {
-            event.setPhaseId(PhaseId.INVOKE_APPLICATION);
-            event.queue();
-        } else {
-            this.file = event.getFile();
-            upload();
-            System.out.println("Description====="+this.fileDesc);
-            //do stuff here, #{ngoPhotoBean.description} is set
-        }
+        this.file = event.getFile();
+        upload();
+        System.out.println("Description====="+this.fileDesc);
+
+//        if (!PhaseId.INVOKE_APPLICATION.equals(event.getPhaseId())) {
+//            event.setPhaseId(PhaseId.INVOKE_APPLICATION);
+//            event.queue();
+//            System.out.println("----------------Description====="+this.fileDesc);
+//        } else {
+//            this.file = event.getFile();
+//            upload();
+//            System.out.println("Description====="+this.fileDesc);
+//            //do stuff here, #{ngoPhotoBean.description} is set
+//        }
     }
 
     public void upload() {
         if(file != null) {
             try {
+                System.out.println("upload = "+this.fileDesc);
                 String folder = getServletContext().getRealPath("/")+UPLOAD_FOLDER;
                 InputStream in = file.getInputstream();
                 BufferedInputStream bis = new BufferedInputStream(in);
@@ -136,6 +142,7 @@ public class ProductView extends BaseView {
     }
 
     public void setFileDesc(String fileDesc) {
+        System.out.println("设置 Description====="+fileDesc);
         this.fileDesc = fileDesc;
     }
 }

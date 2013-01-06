@@ -1,9 +1,39 @@
 <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
-                xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
-                xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:p="http://primefaces.org/ui"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
                 template="/WEB-INF/template/template.xhtml">
-    <ui:define name="content">
-        companyName=#{companyView.company.name}
+    <ui:define name="title">
+        <title>about company</title>
+        <!--
+                <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+                <script type="text/javascript" charset="utf-8" src="/autoparts/resources/ueditor/editor_config.js"></script>
+                <script type="text/javascript" charset="utf-8" src="/autoparts/resources/ueditor/editor_all.js"></script>
+        -->
 
+
+    </ui:define>
+
+    <ui:define name="content">
+        <div>
+            <script id="UEeditor" type="text/plain" style="width:400px;">wwwwwwwwwwwww</script>
+        </div>
+        companyName=#{companyView.company.name}
+        <h:form>
+
+            <h:panelGrid columns="4" cellpadding="5">
+                <h:outputLabel for="name" value="Name:" style="font-weight:bold"/>
+
+                <p:inputText id="name" value="#{productView.fileDesc}"/>
+
+                <p:commandButton value="Submit" update="display"/>
+
+                <h:outputText value="#{productView.fileDesc}" id="display"/>
+            </h:panelGrid>
+            <script type="text/javascript">
+                //实例化编辑器
+                window.UEDITOR_HOME_URL = "/resources/ueditor/";
+                UE.getEditor('UEeditor');
+            </script>
+        </h:form>
     </ui:define>
 </ui:composition>

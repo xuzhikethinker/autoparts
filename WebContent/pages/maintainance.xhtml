@@ -1,0 +1,71 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+                xmlns:c="http://java.sun.com/jsp/jstl/core"
+                template="/WEB-INF/template/template.xhtml">
+    <ui:define name="title">
+        <title>about company</title>
+    </ui:define>
+    <ui:define name="jsSetting">
+        <h:outputScript library="jquery" name="jquery-plugins.js"/>
+    </ui:define>
+    <ui:define name="cssSetting">
+        <style type="text/css">
+            #sidebar {
+                float: left;
+                margin-left: -1px;
+                overflow: hidden;
+                padding: 0 10px;
+                width: 25%;
+                border: 1px solid blue;
+            }
+
+            .ui-panelmenu .ui-panelmenu-header a {
+                display: block;
+                font-size: 0.6em;
+                padding: 0.1em 0.1em 0em 0.2em;
+            }
+
+            .ui-panelmenu .ui-menuitem-link {
+                border: 1px solid transparent;
+                cursor: pointer;
+                display: block;
+                float: right;
+                font-size: 0.8em;
+                line-height: 16px;
+                outline: medium none;
+                padding: 0.1em;
+                text-decoration: none;
+                width: 70%;
+            }
+        </style>
+    </ui:define>
+    <ui:define name="banner">
+        <div>this is maintainance page</div>
+    </ui:define>
+    <ui:define name="content">
+        <div id="sidebar">
+            <h:form id="form1">
+                <p:panelMenu style="width:200px">
+                    <c:forEach items="${productView.productCatalogList}" var="parent">
+                        <p:submenu label="${parent.catalogName}">
+                            <c:forEach items="${parent.childrenProductCatalogList}" var="child">
+                                <p:menuitem value="${child.catalogName}" icon="ui-icon-disk"
+                                            action="#{productView.popupPDF(child.catalogCode)}" update="form1"/>
+                            </c:forEach>
+                        </p:submenu>
+                    </c:forEach>
+                </p:panelMenu>
+            <p:panelMenu style="width:200px">
+                <c:forEach items="${productView.productCatalogList}" var="parent">
+                    <p:submenu label="${parent.catalogName}">
+                        <c:forEach items="${parent.childrenProductCatalogList}" var="child">
+                            <p:menuitem value="${child.catalogName}" icon="ui-icon-disk"/>
+                        </c:forEach>
+                    </p:submenu>
+                </c:forEach>
+            </p:panelMenu>
+            </h:form>
+        </div>
+    </ui:define>
+</ui:composition>

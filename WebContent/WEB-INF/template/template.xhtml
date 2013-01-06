@@ -6,12 +6,18 @@
       xmlns:f="http://java.sun.com/jsf/core"
       xmlns:h="http://java.sun.com/jsf/html">
 <h:head>
-    <title>Welcome</title>
-    <h:outputStylesheet library="bootstrap/css" name="bootstrap.css"/>
+    <ui:insert name="title">
+        <title>Welcome to Auto Parts</title>
+    </ui:insert>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="d"/>
     <meta name="author" content="x"/>
+
+    <ui:insert name="jsSetting"></ui:insert>
     <ui:insert name="cssSetting"></ui:insert>
+    <h:outputStylesheet library="bootstrap/css" name="bootstrap.css"/>
+    <h:outputScript library="ueditor" name="editor_config.js"/>
+    <h:outputScript library="ueditor" name="editor_all.js"/>
     <!-- Le styles -->
     <style type="text/css">
         .carItem {
@@ -114,7 +120,7 @@
                         <li><h:link outcome="/pages/company.xhtml">About Us</h:link></li>
                         <li><a href="#">News</a></li>
                         <li><h:link outcome="/pages/product.xhtml">Products</h:link></li>
-                        <li><a href="#">Feedback</a></li>
+                        <li><h:link outcome="/pages/maintainance.xhtml">Feedback</h:link></li>
                         <li><a href="#">Contact</a></li>
                     </ul>
                 </div>
@@ -130,6 +136,7 @@
     </div>
 
     <!-- content -->
+
     <div class="jumbotron content" id="content">
          <ui:insert name="content">
               this is main content information

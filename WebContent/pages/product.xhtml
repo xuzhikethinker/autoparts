@@ -1,8 +1,11 @@
 <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
-                xmlns:h="http://java.sun.com/jsf/html" xmlns:f="http://java.sun.com/jsf/core"
+                xmlns:h="http://java.sun.com/jsf/html"
                 xmlns:c="http://java.sun.com/jsp/jstl/core"
                 xmlns:p="http://primefaces.org/ui"
                 template="/WEB-INF/template/template.xhtml">
+    <ui:define name="jsSetting">
+        <h:outputScript library="jquery" name="jquery-plugins.js"/>
+    </ui:define>
     <ui:define name="cssSetting">
         <style type="text/css">
             .ui-panelmenu .ui-panelmenu-header a {
@@ -31,25 +34,35 @@
                 <c:forEach items="${productView.productCatalogList}" var="parent">
                     <p:submenu label="${parent.catalogName}">
                         <c:forEach items="${parent.childrenProductCatalogList}" var="child">
-                            <p:menuitem value="${child.catalogName}" icon="ui-icon-disk" action="#{productView.popupPDF(child.catalogCode)}" update="form"/>
+                            <p:menuitem value="${child.catalogName}" icon="ui-icon-disk"
+                                        action="#{productView.popupPDF(child.catalogCode)}" update="form"/>
                         </c:forEach>
                     </p:submenu>
                 </c:forEach>
             </p:panelMenu>
             <br/>
-<!--            <p:fileUpload value="#{productView.file}" mode="simple"/>
+            <!--            <p:fileUpload value="#{productView.file}" mode="simple"/>
 
-            <p:commandButton value="Submit" ajax="false"
-                             actionListener="#{productView.upload}"/>-->
+                        <p:commandButton value="Submit" ajax="false"
+                                         actionListener="#{productView.upload}"/>-->
             <br/>
 
             upload file with description
 
             <p:fileUpload fileUploadListener="#{productView.fileUpload}" process="@form" update="@form"/>
-            <h:inputText value="#{productView.fileDesc}" />
+            <p:inputText value="#{productView.fileDesc}" id="display"/>
+            <p:commandButton value="Submit" update="display"/>
+
+            <!--                <p:inputText value="#{productView.fileDesc}" />
+                            <p:fileUpload id="document" value="#{productView.file}" mode="simple" />
+                        <p:commandButton value="Submit" ajax="false"
+                                         actionListener="#{productView.upload}"/>-->
+            <!-- enctype="multipart/form-data"-->
+
 
             <p:media value="/resources/product/#{productView.selectedPDFName}" width="100%" height="300px">
-                Your browser can't display pdf, <h:outputLink value="/resources/product/#{productView.selectedPDFName}">click</h:outputLink> to download pdf instead.
+                Your browser can't display pdf, <h:outputLink
+                    value="/resources/product/#{productView.selectedPDFName}">click</h:outputLink> to download pdf instead.
             </p:media>
         </h:form>
     </ui:define>

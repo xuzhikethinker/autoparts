@@ -36,6 +36,11 @@ http://ocpsoft.com/xml/ns/prettyfaces/ocpsoft-pretty-faces-3.3.3.xsd">
         <view-id value="/pages/company.xhtml"></view-id>
     </url-mapping>
 
+    <url-mapping id="maintain">
+        <pattern value="/maintain"></pattern>
+        <view-id value="/pages/maintainance.xhtml"></view-id>
+    </url-mapping>
+
 <!--	<url-mapping id="companyInfoV">
 		<pattern value="/v/compInfo/#{target:companyInfoView.target}/#{type:companyInfoView.type}"></pattern>
 		<action>#{companyInfoView.initPageData}</action>

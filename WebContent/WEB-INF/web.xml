@@ -127,6 +127,14 @@
   <listener>
     <listener-class>org.springframework.web.context.request.RequestContextListener</listener-class>
   </listener>
+    <filter>
+        <filter-name>Character Encoding Filter</filter-name>
+        <filter-class>com.autoparts.webapp.filter.CharacterEncodingFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>Character Encoding Filter</filter-name>
+        <servlet-name>Faces Servlet</servlet-name>
+    </filter-mapping>
   <filter>
     <filter-name>encodingFilter</filter-name>
     <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
@@ -139,14 +147,7 @@
       <param-value>true</param-value>
     </init-param>
   </filter>
-    <filter>
-        <filter-name>Character Encoding Filter</filter-name>
-        <filter-class>com.autoparts.webapp.filter.CharacterEncodingFilter</filter-class>
-    </filter>
-    <filter-mapping>
-        <filter-name>Character Encoding Filter</filter-name>
-        <servlet-name>Faces Servlet</servlet-name>
-    </filter-mapping>
+
   <filter>
     <filter-name>ResponseTimeLoggingFilter</filter-name>
     <filter-class>com.autoparts.webapp.filter.ResponseTimeLoggingFilter</filter-class>
@@ -185,6 +186,9 @@
   <filter-mapping>
     <filter-name>encodingFilter</filter-name>
     <url-pattern>/*</url-pattern>
+      <dispatcher>FORWARD</dispatcher>
+      <dispatcher>REQUEST</dispatcher>
+      <dispatcher>ERROR</dispatcher>
   </filter-mapping>
   <filter-mapping>
     <filter-name>ExceptionFilter</filter-name>
@@ -225,6 +229,7 @@
   <servlet-mapping>
     <servlet-name>Faces Servlet</servlet-name>
     <url-pattern>*.xhtml</url-pattern>
+    <url-pattern>*.jsf</url-pattern>
   </servlet-mapping>
   <session-config>
     <session-timeout>20</session-timeout>
