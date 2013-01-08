@@ -5,6 +5,7 @@ import com.autoparts.service.AutopartsService;
 import javax.faces.bean.ManagedProperty;
 import javax.faces.context.FacesContext;
 import javax.servlet.ServletContext;
+import java.util.Map;
 
 /**
  * User: Administrator
@@ -27,4 +28,12 @@ public class BaseView {
     public ServletContext getServletContext(){
         return (ServletContext) FacesContext.getCurrentInstance().getExternalContext().getContext();
     }
+
+    public String getParamValue(String paramName){
+        FacesContext fc = FacesContext.getCurrentInstance();
+        Map<String,String> params = fc.getExternalContext().getRequestParameterMap();
+        return params.get(paramName);
+    }
+
+
 }

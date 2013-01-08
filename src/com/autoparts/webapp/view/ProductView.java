@@ -83,7 +83,7 @@ public class ProductView extends BaseView {
         }
     }
     public String popupPDF(String type){
-
+        System.out.println("type = "+type);
         ServletContext servletContext = (ServletContext) FacesContext.getCurrentInstance().getExternalContext().getContext();
         System.out.println(servletContext.getRealPath("/"));
         servletContext.getContextPath();

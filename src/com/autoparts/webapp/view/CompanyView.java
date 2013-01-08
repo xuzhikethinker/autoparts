@@ -26,6 +26,11 @@ public class CompanyView extends BaseView {
         companyContact = this.autopartsService.getCompanyContact();
     }
 
+    public String saveCompany(){
+        this.autopartsService.updateCompany(this.company);
+        return null;
+    }
+
     public Company getCompany() {
         return company;
     }

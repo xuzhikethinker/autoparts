@@ -12,12 +12,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="description" content="d"/>
     <meta name="author" content="x"/>
-
-    <ui:insert name="jsSetting"></ui:insert>
-    <ui:insert name="cssSetting"></ui:insert>
     <h:outputStylesheet library="bootstrap/css" name="bootstrap.css"/>
     <h:outputScript library="ueditor" name="editor_config.js"/>
     <h:outputScript library="ueditor" name="editor_all.js"/>
+    <h:outputScript library="primefaces" name="jquery/jquery.js" target="head" />
+    <ui:insert name="jsSetting"></ui:insert>
+    <ui:insert name="cssSetting"></ui:insert>
     <!-- Le styles -->
     <style type="text/css">
         .carItem {
@@ -43,7 +43,7 @@
         .jumbotron {
             margin: 10px 0;
             text-align: center;
-            border: 1px solid blue;
+/*            border: 1px solid blue;*/
         }
         .jumbotron h1 {
             font-size: 100px;
@@ -67,7 +67,7 @@
         }
 
         .content{
-            border: 1px solid red;
+/*            border: 1px solid red;*/
             min-height: 300px;
         }
 

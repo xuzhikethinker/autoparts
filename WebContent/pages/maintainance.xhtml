@@ -1,6 +1,7 @@
 <ui:composition xmlns="http://www.w3.org/1999/xhtml" xmlns:ui="http://java.sun.com/jsf/facelets"
                 xmlns:h="http://java.sun.com/jsf/html"
                 xmlns:p="http://primefaces.org/ui"
+                xmlns:f="http://java.sun.com/jsf/core"
                 xmlns:c="http://java.sun.com/jsp/jstl/core"
                 template="/WEB-INF/template/template.xhtml">
     <ui:define name="title">
@@ -8,6 +9,12 @@
     </ui:define>
     <ui:define name="jsSetting">
         <h:outputScript library="jquery" name="jquery-plugins.js"/>
+        <script type="text/javascript">
+            function setMenuType(name){
+                alert("name = "+name);
+                $("#menuType").val(name);
+            }
+        </script>
     </ui:define>
     <ui:define name="cssSetting">
         <style type="text/css">
@@ -16,8 +23,17 @@
                 margin-left: -1px;
                 overflow: hidden;
                 padding: 0 10px;
-                width: 25%;
+                width: 21%;
                 border: 1px solid blue;
+            }
+
+            #mainContent {
+                float: right;
+                margin-left: -1px;
+                overflow: hidden;
+                padding: 0 10px;
+                width: 74%;
+                border: 1px solid red;
             }
 
             .ui-panelmenu .ui-panelmenu-header a {
@@ -41,31 +57,31 @@
         </style>
     </ui:define>
     <ui:define name="banner">
-        <div>this is maintainance page</div>
+        <div>this is maintainance page: #{maintainView.pageName}</div>
     </ui:define>
     <ui:define name="content">
+        <h:form id="maintainForm"  prependId="false">
         <div id="sidebar">
-            <h:form id="form1">
-                <p:panelMenu style="width:200px">
-                    <c:forEach items="${productView.productCatalogList}" var="parent">
-                        <p:submenu label="${parent.catalogName}">
-                            <c:forEach items="${parent.childrenProductCatalogList}" var="child">
-                                <p:menuitem value="${child.catalogName}" icon="ui-icon-disk"
-                                            action="#{productView.popupPDF(child.catalogCode)}" update="form1"/>
-                            </c:forEach>
-                        </p:submenu>
-                    </c:forEach>
-                </p:panelMenu>
-            <p:panelMenu style="width:200px">
-                <c:forEach items="${productView.productCatalogList}" var="parent">
-                    <p:submenu label="${parent.catalogName}">
-                        <c:forEach items="${parent.childrenProductCatalogList}" var="child">
-                            <p:menuitem value="${child.catalogName}" icon="ui-icon-disk"/>
-                        </c:forEach>
+
+                <p:panelMenu>
+                    <p:submenu label="系统管理">
+                        <p:menuitem value="CompanyInfo" id="CompanyInfo" icon="ui-icon-disk"  action="#{maintainView.gotoPage}" onstart="setMenuType('companyEdit');" update="maintainForm">
+                        </p:menuitem>
+                        <p:menuitem value="UserInfo"  icon="ui-icon-arrowrefresh-1-w" id="userEdit" actionListener="#{maintainView.update}" onclick="setMenuType('userEdit');"  update="maintainForm">
+                        </p:menuitem>
+                        <p:menuitem value="Product Info"  icon="ui-icon-arrowrefresh-1-w" action="#{maintainView.gotoPage}" onclick="setMenuType('productEdit');"  update="maintainForm">
+                        </p:menuitem>
+                        <p:menuitem value="Feedback Info" icon="ui-icon-arrowrefresh-1-w" onclick="setMenuType('feedback');" />
+                        <p:menuitem value="News Info" icon="ui-icon-arrowrefresh-1-w" onclick="setMenuType('news');" />
                     </p:submenu>
-                </c:forEach>
-            </p:panelMenu>
-            </h:form>
+                </p:panelMenu>
+
         </div>
+        <div id="mainContent">
+            <ui:include src="admin/#{maintainView.pageName}.xhtml"></ui:include>
+        </div>
+            <h:inputHidden id="menuType" value="#{maintainView.pageName}" />
+
+        </h:form>
     </ui:define>
 </ui:composition>

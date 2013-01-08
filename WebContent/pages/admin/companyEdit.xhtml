@@ -1,0 +1,49 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+                xmlns:ui="http://java.sun.com/jsf/facelets"
+                xmlns:h="http://java.sun.com/jsf/html"
+                xmlns:p="http://primefaces.org/ui"
+>
+    <p:panel id="panel" header="Company Edit" style="margin-bottom:10px;">
+        <p:messages id="messages" />
+         <h:inputHidden id="companyID" value="#{companyView.company.id}" />
+        <h:panelGrid columns="3">
+            <h:outputLabel for="companyName" value="Company Name: *" />
+            <p:inputText id="companyName" value="#{companyView.company.name}" label="companyName">
+            </p:inputText>
+            <p:message for="companyName" />
+
+
+            <h:outputLabel for="address" value="Address: *" />
+            <p:inputText id="address" value="#{companyView.company.address}" label="address"/>
+            <p:message for="address" />
+
+            <h:outputLabel for="principal" value="principal: *" />
+            <p:inputText id="principal" value="#{companyView.company.principal}" label="principal"/>
+            <p:message for="principal" />
+
+            <h:outputLabel for="contactName" value="contact Name: *" />
+            <p:inputText id="contactName" value="#{companyView.company.contact.contactName}" label="contactName"/>
+            <p:message for="contactName" />
+
+            <h:outputLabel for="emailAddress" value="email Address: *" />
+            <p:inputText id="emailAddress" value="#{companyView.company.contact.emailAddress}" label="emailAddress"/>
+            <p:message for="emailAddress" />
+
+            <h:outputLabel for="phone" value="phone: *" />
+            <p:inputText id="phone" value="#{companyView.company.contact.phone}" label="phone"/>
+            <p:message for="phone" />
+
+            <h:outputLabel for="fax" value="fax: *" />
+            <p:inputText id="fax" value="#{companyView.company.contact.fax}" label="fax"/>
+            <p:message for="fax" />
+
+<!--            <h:outputLabel for="compId" value="id: *" />
+            <p:inputText id="compId" value="#{companyView.company.id}" label="compId"/>
+            <p:message for="compId" />-->
+
+        </h:panelGrid>
+
+        <p:commandButton value="Save" id="companySave"
+                         action="#{companyView.saveCompany}" styleClass="ui-priority-primary"/>
+    </p:panel>
+</ui:composition>
